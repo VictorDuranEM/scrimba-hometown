@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+h1 {
+  margin: 0;
+}
+
+#hero {
+  background-image: url("images/lima-hero-image.png");
+  background-size: cover;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#hero h1,h2 {
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-shadow: 0 0 1px black;
+}
+
+#hero-title {
+  background-color: #477572;
+  font-family: 'Zilla Slab', serif;
+}
+
+#hero-description {
+  width: 60%;;
+  background-color: #8CBFD4;
+}
+
+#activities {
+  color: #1D3557;
+  display: flex;
+  justify-content: space-evenly;
+  background: #8CBFD4;
+}
+
+.activity {
+  padding: 100px 20px;
+  width: 200px;
+}
+
+.activity > img {
+  width: 100px;
+  border-radius: 50%;
+  transition: width ease-in-out .5s;
+}
+
+.activity > img:hover {
+  width: 150px;
+}
+
+#guide {
+  display: flex;
+  background: #477572;
+  width: 500px;
+  margin: 60px auto;
+  padding: 25px 20px;
+  border-radius: 10px;
+  color: white;
+  align-items: center;
+  box-shadow: 0 8px #8CBFD4;
+}
+
+.guide-img {
+  width: 170px;
+  border-radius: 10px;
+}
+
+.guide-content {
+  margin-left: 20px
+}
+
+.italic {
+  font-style: italic;
+}
+
+#footer {
+  color: #1D3557;
+  font-family: 'Zilla Slab', serif;
+  background: #8CBFD4;
+  padding: 50px;
+}
+
+.footer-title {
+  margin-bottom: 50px;
+}
+
+.footer-pictures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 30px 10px;
+}
+
+.footer-pictures > img {
+  width: 400px;
+  
+}
